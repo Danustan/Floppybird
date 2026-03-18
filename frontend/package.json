@@ -13,11 +13,17 @@
     "react-toastify": "^9.1.2",
     "formik": "^2.4.2",
     "yup": "^0.32.11",
-    "date-fns": "^2.29.2"
+    "date-fns": "^2.29.2",
+    "react-scripts": "5.0.1",
+    "serve": "^14.1.2"
+  },
+  "engines": {
+    "node": "18.x"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "serve -s build -l 5173",
+    "dev": "react-scripts start",
+    "build": "CI=false react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -38,7 +44,5 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "react-scripts": "5.0.1"
-  }
+  "devDependencies": {}
 }
