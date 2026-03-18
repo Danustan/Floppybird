@@ -1,0 +1,117 @@
+.status-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa 0%, #ecf0f1 100%);
+  padding: 40px 20px;
+}
+
+.status-card {
+  max-width: 700px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 12px;
+  padding: 40px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.status-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #ecf0f1;
+  padding-bottom: 20px;
+}
+
+.status-header h2 {
+  color: #333;
+  font-size: 28px;
+}
+
+.status-badge {
+  padding: 10px 20px;
+  border-radius: 25px;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.complaint-details {
+  margin-bottom: 40px;
+}
+
+.detail-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+  border-bottom: 1px solid #ecf0f1;
+  align-items: center;
+}
+
+.label {
+  font-weight: 600;
+  color: #555;
+  min-width: 150px;
+}
+
+.value {
+  color: #27ae60;
+  font-weight: 500;
+}
+
+.updates-section {
+  margin-top: 40px;
+}
+
+.updates-section h3 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.updates-list {
+  border-left: 3px solid #27ae60;
+  padding-left: 30px;
+  position: relative;
+}
+
+.update-item {
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.update-item::before {
+  content: '';
+  position: absolute;
+  left: -38px;
+  top: 5px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #27ae60;
+  border: 3px solid white;
+  box-shadow: 0 0 0 3px #27ae60;
+}
+
+.update-time {
+  font-size: 14px;
+  color: #7f8c8d;
+  margin-bottom: 8px;
+}
+
+.update-status {
+  display: inline-block;
+  padding: 6px 15px;
+  border-radius: 20px;
+  color: white;
+  font-weight: 600;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.update-message {
+  color: #333;
+  background: #f5f7fa;
+  padding: 12px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
